@@ -1,0 +1,282 @@
+/* main/index */
+.body-form {
+    background-color: #c67605;
+    width: 100%;
+    border-radius: 7px;
+    padding: 5px;
+    box-shadow: #f8a221 0px 0px 15px 10px;
+
+}
+.body-form-contact {
+    background-color: #c67605;
+    border-radius: 7px;
+    box-shadow: #f8a221 0px 0px 15px 10px;
+
+}
+
+.body-text {
+    background-color: #1a1a1a;
+    height: 470px;
+    color: white;
+    border-radius: 7px;
+    overflow: auto;
+}
+.body-contact {
+    background-color: #1a1a1a;
+    height: 470px;
+    color: white;
+    border-radius: 7px;
+    overflow: auto;
+}
+
+.body-button {
+    background-color: #c67605;
+    border-radius: 7px;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    box-shadow: #f8a221 0px 0px 15px 10px;
+}
+
+.body-button-text {
+    color: white;
+    background-color: #1a1a1a;
+    border-radius: 7px;
+    height: 100px;
+    text-align: left;
+    padding: 5px;
+}
+.small-online{
+    font-size: 0.6em;
+    color: #4fe772;
+}
+.small-offline{
+    font-size: 0.6em;
+    color: #b90000;
+}
+.online-user{
+    background-color: #020269;
+}
+.offline-user{
+    background-color: #c67605;
+}
+.chat-container {
+    width: 500px;
+    margin: 0 auto; /* Центрирует блок по горизонтали */
+    padding: 10px;
+}
+
+.message-text {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border-radius: 7px;
+    padding: 5px;
+    opacity: 60%;
+}
+
+.message-user {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-shadow: #1a1a1a 3px 3px 5px;
+}
+
+.message-time {
+    color: #ffffff;
+    font-size: 0.6em;
+
+}
+
+.btn-chat {
+    background-color: #c67605;
+    border-radius: 7px;
+    width: 100%;
+    padding: 5px;
+    box-shadow: #f8a221 0px 0px 15px 10px;
+    font-style: oblique;
+}
+
+.btn-chat:hover {
+    cursor: pointer;
+    background-color: #f8a221;
+    color: #1a1a1a;
+}
+
+.textarea-send {
+    background-color: transparent;
+    border-color: #1a1a1a;
+    width: 98%;
+    height: 75px;
+    color: white;
+    resize: none;
+}
+
+.textarea-chat {
+    background-color: transparent;
+    border-color: #1a1a1a;
+    width: 98%;
+    height: 470px;
+    color: white;
+    resize: none;
+}
+
+.text-my {
+    background-color: #020269;
+    margin: 7px;
+    padding: 5px;
+    border-radius: 7px;
+    text-align: right;
+    box-shadow: #0a53be 0px 0px 10px 5px;
+}
+
+.text-other {
+    background-color: #c69500;
+    margin: 7px;
+    padding: 5px;
+    border-radius: 7px;
+    text-align: left;
+    box-shadow: #C6E746 0px 0px 10px 5px;
+}
+
+
+/* loyout/chat */
+.header_menu_site{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin-top: 10%;
+}
+.header_menu_site a{
+    color: rgb(40, 2, 143);
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    text-shadow: #000000 0px 0px 10px;
+}
+
+.header_menu_site a:hover{
+    color: #ff0000;
+}
+.header_body_site{
+
+    border-radius: 10px;
+    box-shadow: chocolate 0px 0px 10px;
+    background: rgba(252,234,187,1);
+    background: -moz-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252,234,187,1)), color-stop(50%, rgba(252,205,77,1)), color-stop(51%, rgba(248,181,0,1)), color-stop(100%, rgba(251,223,147,1)));
+    background: -webkit-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+    background: -o-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+    background: -ms-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+    background: linear-gradient(to bottom, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93', GradientType=0 );
+}
+.title_site{
+    font-size: 100%;
+}
+.title_site a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+.logo_site{
+    width: 100px;
+    height: 100px;
+}
+.logo_text_title{
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    text-decoration: underline overline;
+    text-shadow: #f5f1f1 0px 0px 10px;
+}
+.logo_text_title_under{
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+}
+.author_site{
+    color: rgb(0, 0, 0);
+    background-color: #a8a4a4;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 10px;
+}
+.body_site{
+    border-radius: 10px;
+    background-color: #e0d9d9;
+    padding: 5px 5px 20px 5px;
+
+}
+
+.body_menu_footer{
+    display: block;
+    flex-direction: column;
+    align-content: space-between;
+    height: 100%;
+    margin-top: 20px;
+    align-items: center;
+}
+.body_menu_footer a{
+    text-decoration: unset;
+    color: #e51717;
+    font-size: 18px;
+    text-shadow: #1a1a1a 0px 0px 10px;
+
+}
+.img_about{
+    width: 100%;
+    box-shadow: #000000 0px 0px 10px;
+}
+.body_p a{
+    color: rgb(2, 94, 10);
+}
+
+.fields_profile{
+background-color: #0f5132;
+    color: #ffffff;
+    border-radius: 7px;
+    width: 60%;
+    margin: 5px 5px 15px 5px;
+    box-shadow: #0f5132 0px 0px 15px;
+}
+@media screen and (max-width: 600px) {
+    .header_menu_site{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        margin-top: 10%;
+    }
+    .header_menu_site a{
+        color: rgb(40, 2, 143);
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px;
+        text-shadow: #000000 0px 0px 10px;
+    }
+    .logo_text_title{
+        font-size: 35px;
+    }
+    .body_p a{
+        color: rgb(2, 94, 10);
+        font-size: 12px;
+    }
+}
+@media (min-width: 601px) and (max-width: 1000px) {
+    .header_menu_site{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        margin-top: 10%;
+    }
+    .header_menu_site a{
+        color: rgb(40, 2, 143);
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px;
+        text-shadow: #000000 0px 0px 10px;
+    }
+    .logo_text_title{
+        font-size: 45px;
+    }
+    .body_p a{
+        color: rgb(2, 94, 10);
+        font-size: 14px;
+
+    }
+}

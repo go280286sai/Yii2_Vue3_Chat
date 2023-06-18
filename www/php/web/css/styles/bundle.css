@@ -1,0 +1,132 @@
+.body-form {
+  background-color: #1a1a1a;
+}
+.body-form {
+  background-color: #c67605;
+  width: 100%;
+  border-radius: 7px;
+  padding: 5px;
+  box-shadow: 0 0 15px 10px #f8a221;
+}
+
+.body-text {
+  background-color: #1a1a1a;
+  height: 470px;
+  color: #fff;
+  border-radius: 7px;
+  overflow: auto;
+}
+
+.body-button {
+  background-color: #c67605;
+  border-radius: 7px;
+  width: 100%;
+  padding: 5px;
+  box-shadow: 0 0 15px 10px #f8a221;
+}
+
+.body-button-text {
+  color: #fff;
+  background-color: #1a1a1a;
+  border-radius: 7px;
+  height: 100px;
+  text-align: left;
+  padding: 5px;
+}
+
+.chat-container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.message-text {
+  background-color: #fff;
+  color: #1a1a1a;
+  border-radius: 7px;
+  padding: 5px;
+  opacity: 60%;
+}
+
+.message-user {
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-shadow: #1a1a1a 3px 3px 5px;
+}
+
+.message-time {
+  color: #fff;
+  font-size: .6em;
+}
+
+.btn-chat {
+  background-color: #c67605;
+  border-radius: 7px;
+  width: 100%;
+  padding: 5px;
+  box-shadow: 0 0 15px 10px #f8a221;
+  font-style: oblique;
+}
+
+.btn-chat:hover {
+  cursor: pointer;
+  background-color: #f8a221;
+  color: #1a1a1a;
+}
+
+.textarea-send {
+  height: 75px;
+}
+
+.textarea-chat,
+.textarea-send {
+  background-color: transparent;
+  border-color: #1a1a1a;
+  width: 98%;
+  color: #fff;
+  resize: none;
+}
+
+.textarea-chat {
+  height: 470px;
+}
+
+.text-my {
+  background-color: #020269;
+  text-align: right;
+  box-shadow: 0 0 10px 5px #0a53be;
+}
+
+.text-my,
+.text-other {
+  margin: 7px;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.text-other {
+  background-color: #c69500;
+  text-align: left;
+  box-shadow: 0 0 10px 5px #c6e746;
+}
+
+#app {
+  font-family: Avenir,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+nav {
+  padding: 30px;
+}
+
+nav a {
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+nav a.router-link-exact-active {
+  color: #42b983;
+}
