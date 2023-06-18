@@ -39,6 +39,11 @@ class User extends ActiveRecord
         return true;
     }
 
+    /**
+     * @param array $fields
+     * @return void
+     * @throws \Exception
+     */
     public static function auth(array $fields): void
     {
         $fields = MyFunc::getFilds($fields);
@@ -56,6 +61,10 @@ class User extends ActiveRecord
         }
     }
 
+    /**
+     * @param int $id
+     * @return void
+     */
     public static function last_activity(int $id): void
     {
 
@@ -63,6 +72,10 @@ class User extends ActiveRecord
         $user->last_activity=time();
         $user->save();
 }
+
+    /**
+     * @return void
+     */
     public static function logout()
     {
         Yii::$app->session->remove('user');

@@ -62,8 +62,6 @@ use app\models\User;
 <script src="https://js.pusher.com/7.2/pusher.min.js"></script>
 <script src="https://unpkg.com/vue@next"></script>
 <script>
-
-
     Pusher.logToConsole = true;
     const pusher = new Pusher("<?= \Yii::$app->params['push_app_key'] ?>", {
         cluster: "<?= \Yii::$app->params['push_app_cluster'] ?>"

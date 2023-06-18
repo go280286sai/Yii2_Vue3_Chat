@@ -13,6 +13,9 @@ class UploadForm extends Model
     public $email;
     public $imageFile;
 
+    /**
+     * @return array[]
+     */
     public function rules()
     {
         return [
@@ -21,6 +24,10 @@ class UploadForm extends Model
         ];
     }
 
+    /**
+     * @return bool
+     * @throws \yii\base\Exception
+     */
     public function upload()
     {
         if (isset($this->imageFile[0])) {
@@ -39,6 +46,13 @@ class UploadForm extends Model
                 return false;
             }
         }
+
+    /**
+     * @param $user
+     * @param $fields
+     * @return void
+     * @throws \yii\base\Exception
+     */
     public function updateProfile($user, $fields)
     {
         if ($this->validate()) {

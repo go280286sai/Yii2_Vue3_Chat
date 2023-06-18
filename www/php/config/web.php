@@ -44,12 +44,6 @@ $config = [
         'mail' => [
             'class' => 'yii\swiftmailer\Mailer',
             'transport' => [
-                'class' => 'Swift_SmtpTransport',
-                'host' => 'sandbox.smtp.mailtrap.io',
-                'username' => 'd5499c92a8ddc2',
-                'password' => '64bd4beb05f403',
-                'port' => '2525',
-                'encryption' => 'tls',
                 'dsn' => 'native://default',
             ],
 //            'viewPath' => '@common/mail',
